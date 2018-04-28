@@ -8,15 +8,15 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-add.gat('/article-one',function(req,res){
+add.get('/article-one',function(req,res){
     res.send('article one is served here');
 
 })
-add.gat('/article-one',function(req,res){
+add.get('/article-one',function(req,res){
     res.send('article one is served here');
 
 })
-add.gat('/article-one',function(req,res){
+add.get('/article-one',function(req,res){
     res.send('article one is served here');
 
 })
